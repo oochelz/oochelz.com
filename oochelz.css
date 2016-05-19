@@ -1,0 +1,45 @@
+body {
+  font-family: Hind, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Arvo, serif;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.res-content {
+  margin: 0 auto;
+  max-width: 70em;
+}
+
+.res-box {
+
+}
+
+.info-tag {
+  margin-right: .5em;
+}
+
+.info-tag:not(:last-of-type)::after {
+  content: '//';
+  margin-left: .5em;
+}
+
+@media not print {
+  body {
+    background: linear-gradient(45deg, rgba(254,251,208,1) 0%, rgba(253,207,183,1) 22%, rgba(244,130,140,1) 67%, rgba(119,92,106,1) 100%);
+    background-attachment: fixed;
+  }
+
+  .res-box {
+    background: #fff;
+    margin: .5em 0;
+    padding: 1.5em 1em 1em 1em;
+  }
+
+  a {
+    color: #775c6a;
+  }
+}
