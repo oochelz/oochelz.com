@@ -1,0 +1,20 @@
+/* Color Scheme: http://colorpalettes.net/color-palette-1253/ */
+
+body {
+  font-family: Hind, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Arvo, serif;
+  font-weight: normal;
+}
+
+a {
+  color: #775c6a;
+}
+
+.content-box {
+  margin: 0 auto;
+  max-width: 70em;
+}
