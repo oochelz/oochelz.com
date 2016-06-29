@@ -35,7 +35,7 @@ header h1, header nav {
   background: linear-gradient(45deg, rgba(254,251,208,1) 0%, rgba(253,207,183,1) 22%, rgba(244,130,140,1) 67%, rgba(119,92,106,1) 100%);
   background-attachment: fixed;
   height: .5em;
-  margin-bottom: 2em;
+  margin: 0 -1em 2em;
 }
 
 .content-box {
@@ -68,5 +68,23 @@ header h1, header nav {
 
   .right-rail {
   	width: 25%;
+  }
+}
+
+@media (max-width: 450px) {
+  header h1, header nav {
+  	display: block;
+  }
+
+  header h1 {
+  	margin-bottom: 1rem;
+  }
+
+  nav {
+  	margin-bottom: 1em;
+  }
+
+  .nav-link {
+  	margin: 0 2em 0 0;
   }
 }
