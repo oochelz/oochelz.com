@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5 {
   margin-left: .5em;
 }
 
+.content-box {
+  padding: 0;
+}
+
 @media not print {
   body {
     background: linear-gradient(45deg, rgba(254,251,208,1) 0%, rgba(253,207,183,1) 22%, rgba(244,130,140,1) 67%, rgba(119,92,106,1) 100%);

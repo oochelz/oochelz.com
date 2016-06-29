@@ -14,7 +14,55 @@ a {
   color: #609b83;
 }
 
+a:hover {
+  color: #fdcfb7;
+}
+
+p {
+  margin: 0;
+}
+
+header h1, header nav {
+  display: inline-block;
+}
+
+.nav-link {
+  margin-left: 2em;
+  text-decoration: none;
+}
+
+.grad-bar {
+  background: linear-gradient(45deg, rgba(254,251,208,1) 0%, rgba(253,207,183,1) 22%, rgba(244,130,140,1) 67%, rgba(119,92,106,1) 100%);
+  background-attachment: fixed;
+  height: .5em;
+  margin-bottom: 2em;
+}
+
 .content-box {
   margin: 0 auto;
   max-width: 70em;
+  padding: 0 1em;
+}
+
+.main, .right-rail {
+  float: left;
+  width: 100%;
+}
+
+.main article {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 900px) {
+  .main {
+    width: 75%;
+  }
+
+  .main article {
+    padding-right: 2em;
+  }
+
+  .right-rail {
+  	width: 25%;
+  }
 }
