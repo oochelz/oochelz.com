@@ -53,6 +53,10 @@ header h1, header nav {
   margin-bottom: 1em;
 }
 
+.intro {
+  margin-top: 0;
+}
+
 @media (min-width: 900px) {
   .main {
     width: 75%;
