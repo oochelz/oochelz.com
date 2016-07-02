@@ -1,5 +1,9 @@
-h1, h2, h3, h4, h5 {
+.name, .contact {
   margin-top: 0;
+}
+
+.headline {
+  font-family: Hind, Helvetica, sans-serif;
 }
 
 .info-tag {
@@ -7,12 +11,20 @@ h1, h2, h3, h4, h5 {
 }
 
 .info-tag:not(:last-of-type)::after {
-  content: '//';
+  content: '|';
   margin-left: .5em;
 }
 
 .content-box {
   padding: 0;
+}
+
+.res-box p {
+  margin-bottom: .5em;
+}
+
+#projects h3 {
+  margin-top: 1em;
 }
 
 @media not print {
@@ -25,5 +37,9 @@ h1, h2, h3, h4, h5 {
     background: #fff;
     margin: .5em 0;
     padding: 1.5em 1em 1em 1em;
+  }
+
+  h1, h2, h3, h4, h5 {
+    margin-top: 0;
   }
 }
