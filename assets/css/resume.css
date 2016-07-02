@@ -2,10 +2,6 @@
   margin-top: 0;
 }
 
-.headline {
-  font-family: Hind, Helvetica, sans-serif;
-}
-
 .info-tag {
   margin-right: .5em;
 }
@@ -13,6 +9,10 @@
 .info-tag:not(:last-of-type)::after {
   content: '|';
   margin-left: .5em;
+}
+
+.headline {
+  font-family: Hind, Helvetica, sans-serif;
 }
 
 .content-box {
